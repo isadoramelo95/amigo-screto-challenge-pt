@@ -3,11 +3,11 @@ let listaDeNomes = [];
 function adicionarAmigo() {
   let nome = document.querySelector("input").value;
 
-  if (nome === "") {
-    exibirListaNaTela("ul", "Preencha com seu nome no campo.");
+  if (nome === '') {
+    exibirListaNaTela('ul', 'Preencha com seu nome no campo.');
   } else {
     listaDeNomes.push(nome);
-    exibirNomesEMensagem();
+    exibirListaNaTela('ul', `${listaDeNomes}`);
   }
 
   limparCampo();
@@ -18,11 +18,12 @@ function exibirListaNaTela(tag, texto) {
   campo.innerHTML = texto;
 }
 
-function exibirNomesEMensagem() {
-  exibirListaNaTela("ul", `${listaDeNomes}`);
-}
-
 function limparCampo() {
   let nome = document.querySelector("input");
   nome.value = "";
 }
+
+function sortearAmigo() {
+    let nomeEscolhido = listaDeNomes[Math.floor(Math.random() * listaDeNomes.length)];
+    exibirListaNaTela('ul', `O amigo sorteado foi: ${nomeEscolhido}`); 
+}	

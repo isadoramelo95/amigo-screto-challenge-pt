@@ -20,6 +20,8 @@ Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome da lista será 
 
 O challenge foi desenvolvido em Javascript, HTML e CSS.
 
+No javascript usamos o DOM e o Math.Floor para selecionar a lista de array.
+
 ### 1. Clonar o repositório
 Para começar, clone o repositório em sua máquina local:
 ```bash

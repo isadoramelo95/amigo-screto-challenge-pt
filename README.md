@@ -34,5 +34,8 @@ para testar o projeto deve usar o Open Live server no index.html e irá abrir a 
 
 ![image](https://github.com/user-attachments/assets/16688b27-0ae3-4dcd-888d-6f0593bf8689)
 
+# 👷‍♀️ Desenvolvedora
 
+Isadora Melo 
+isadoramelo995@gmail.com
 

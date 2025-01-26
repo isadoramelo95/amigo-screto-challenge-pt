@@ -18,6 +18,8 @@ Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome da lista será 
 
 # 🛠️ Abrir e rodar o projeto
 
+O challenge foi desenvolvido em Javascript, HTML e CSS.
+
 ### 1. Clonar o repositório
 Para começar, clone o repositório em sua máquina local:
 ```bash
